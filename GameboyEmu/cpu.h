@@ -1,4 +1,7 @@
-#include <stdint.h>
+    #ifndef CPU_H
+    #define CPU_H
+
+    #include <stdint.h>
 
     struct Registers {
 
@@ -17,3 +20,5 @@
     
     void CPU_Init();
     bool CPU_Step();
+
+    #endif
